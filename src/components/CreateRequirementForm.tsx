@@ -59,7 +59,7 @@ export default function CreateRequirementForm() {
 
     return (
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 max-w-2xl w-full mx-auto">
-            {/* Progress Bar */}
+
             <div className="bg-gray-50 px-8 py-4 border-b border-gray-100 flex items-center justify-between">
                 <div className="flex items-center gap-2">
                     {[0, 1, 2, 3].map((step) => (
