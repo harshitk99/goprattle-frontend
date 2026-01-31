@@ -47,7 +47,7 @@ export default function CreateRequirementForm() {
         setIsSubmitting(true);
         setError(null);
         try {
-            await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/requirements`, data);
+            await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/requirements`, data);
             router.push('/?success=true');
         } catch (err: any) {
             console.error(err);
